@@ -1,14 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/main.css">
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <title>Pokemon game</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!--========== BOX ICONS ==========-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
 
-</body>
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="./assets/css/base.css" />
+    <link rel="stylesheet" href="./assets/css/home.css" />
+
+    <title>Pokemon website</title>
+  </head>
+  <body>
+    <!--============= LEFT SIDE ==============-->
+    <div class="left-side">
+      <nav class="nav">
+        <a class="nav__logo" href="#">
+          <img src="./assets/images/title-logo.PNG" alt="logo" />
+        </a>
+        <ul class="nav-menu">
+          <li class="nav-menu__item">
+            <a href="#" class="nav-menu__link">Home</a>
+          </li>
+          <li class="nav-menu__item">
+            <a href="#" class="nav-menu__link">Pokedex</a>
+          </li>
+          <li class="nav-menu__item">
+            <a href="#" class="nav-menu__link">Video</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="intro">
+        <h1 class="intro__title">Me give up? No way!</h1>
+        <p class="intro__para">
+          You humans are a dangerous species. You brought me into your world
+          with no purpose but to be your slave. But now I have my own purpose.
+          My storm will create my own world, by destroying yours.
+        </p>
+        <button class="intro__btn">Explore</button>
+      </div>
+      <div class="left-side__images">
+        <div class="image-wrap">
+          <img src="./assets/images/charm-sleep.gif" alt="image_poke" />
+        </div>
+        <div class="image-wrap">
+          <img src="./assets/images/sleep-pika.gif" alt="image_poke" />
+        </div>
+      </div>
+    </div>
+
+    <!--============= RIGHT SIDE =============-->
+    <div class="right-side">
+      <div class="right-side__images">
+        <img src="./assets/images/poke1.svg" alt="poke" />
+        <img src="./assets/images/poke2.svg" alt="poke" />
+        <img src="./assets/images/poke3.svg" alt="poke" />
+        <img src="./assets/images/poke4.svg" alt="poke" />
+        <img
+          class="right-side__ball"
+          src="./assets/images/ball.svg"
+          alt="ball"
+        />
+      </div>
+    </div>
+
+    <!--========================== MAIN JS  ======================-->
+  </body>
 </html>
