@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--========== BOX ICONS ==========-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="./assets/css/base.css" />
+    <link rel="stylesheet" href="./assets/css/pokedex.css" />
+    <title>Pokemon website</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <a class="back-button" href="/index.html">
+        <img src="./assets/images/goback.svg" alt="goback" />
+        Go back
+      </a>
+      <div class="buttons-wrap">
+        <button id="normal-btn">Normal</button>
+        <button id="slide-btn">Slide</button>
+      </div>
+    </header>
+    <div id="pokedex-container" class="pokedex-container slider"></div>
+    <!--================ POKEDEX JS ===============-->
+    <script src="./assets/js/pokedex.js"></script>
+  </body>
+</html>

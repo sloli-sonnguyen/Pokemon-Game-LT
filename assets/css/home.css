@@ -31,7 +31,7 @@
   --mb-3: 1.5rem;
   --mb-4: 2rem;
   --mb-5: 2.5rem;
-  --mb-6: 3rem;
+  --mb-6: 5rem;
 }
 
 body {
@@ -90,27 +90,8 @@ body {
 }
 
 .intro__title,
-.intro__para,
-.intro__btn {
+.intro__para {
   margin-bottom: var(--mb-6);
-}
-
-.intro__btn {
-  background-color: #000;
-  color: white;
-  font-size: var(--h3-font-size);
-  font-weight: var(--font-semi-bold);
-
-  padding: 1rem 5rem;
-  border-radius: 2rem;
-  outline: none;
-  border: none;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.intro__btn:hover {
-  background-color: tomato;
 }
 
 /* Left side images */
